@@ -1,0 +1,60 @@
+/* kırmızı buton */
+.main-btn{
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    border: 0.2rem solid var(--primary-color);
+    padding: 1rem 1rem;
+    transition: all .4s ease-in-out 0s;
+    -webkit-transition: all .4s ease-in-out 0s;
+    border-radius: 10px;
+}
+
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+/* beyaz buton */
+
+.white-btn{
+    display: inline-block;
+    font-weight: 700;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    font-family: var(--secondary-font);
+    border: 0.2rem solid var(--white-color);
+    padding: 1rem 1rem;
+    margin-left: 1rem;
+    transition: all .4s ease-in-out 0s;
+    -webkit-transition: all .4s ease-in-out 0s;
+    border-radius: 10px;
+}
+
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.white-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+
+    border: 0.2rem solid var(--primary-color);
+
+}
+
+/* özel scrollbar */
+::-webkit-scrollbar{
+    width: 0.6rem;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+    border-radius: 5px;
+    
+}
+
+::-webkit-scrollbar-track{
+    background: var(--white-color);
+}
